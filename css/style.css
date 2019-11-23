@@ -268,9 +268,10 @@ ul,ol{
     z-index:999
 }
 .header-warp{
-    padding-top:35px;
-    max-width:1464px;
-    margin:0 auto
+    padding-top:40px;
+    max-width:100%;
+    margin:0 auto;
+    padding-left:40px;
 }
 .site-logo{
     display:inline-block;
@@ -399,15 +400,30 @@ ul,ol{
     border-radius:50%
 }
 .about-section{
-    padding-left:227px
+    padding-left:40px !important;
+    padding-bottom:40px !important;
+}
+.fb-box{
+    background:rgba(255, 255, 255, 0.65);
+    padding:20px;
+    margin:40px 0;
+}
+.fp-tableCell{
+    vertical-align:bottom;
 }
 .about-content-warp{
     max-width:470px;
+    padding:0 20px;
+    border: 3px solid transparent;
+    -webkit-border-image: url(../img/border.png) 1 round; 
+    -o-border-image: url(../img/border.png) 1 round;
+    border-image: url(../img/border.png) 1 round;
 }
 .about-content-warp h2{
     font-size:42px;
     font-weight:600;
-    margin-bottom:20px
+    margin-bottom:20px;
+    padding-top:40px;
 }
 .about-content-warp p{
     margin-bottom:20px;
@@ -417,16 +433,30 @@ ul,ol{
     opacity:1;
 }
 .banner-section{
-    padding:60px 0
+    padding:40px 0;
+}
+.default-padding{
+    padding:0 40px;
+}
+.no-padding{
+    padding:0px !important;
+}
+.no-margin{
+    margin:0px !important;
+}
+.container{
+    max-width: 100% !important;
 }
 .banner-section h2{
     display:inline-block;
     padding-bottom:20px;
     padding-top:8px;
-    font-size:60px;
-    font-weight:500;
-    color:#eee;
-    letter-spacing:2px;
+    font-size:42px;
+    font-weight:600;
+    color:#fff;
+}
+.banner-section img{
+    box-shadow:2px 2px 2px #222;
 }
 .footer-section{
     padding:116px 0 130px

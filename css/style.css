@@ -459,7 +459,8 @@ ul,ol{
     box-shadow:2px 2px 2px #222;
 }
 .footer-section{
-    padding:116px 0 130px
+    padding:20px 40px;
+    text-align:center;
 }
 .footer-about{
     max-width:470px
